@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.itcast.Demo.dao.UserDao" >
+
+    <!--查询待秒杀的活动商品列表-->
+    <select id="selectAll" resultType="com.itcast.Demo.pojo.User">
+       select * from user
+    </select>
+
+</mapper>
+
+
+

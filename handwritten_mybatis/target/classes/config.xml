@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <porperty name="driver">com.mysql.jdbc.Driver</porperty>
+    <porperty name="url">jdbc:mysql://localhost:3306/spring_boot?useUnicode=true;characterEncoding=utf8</porperty>
+    <porperty name="username">root</porperty>
+    <porperty name="password">root</porperty>
+
+    <mappers>
+        <mapper resource="com/itcast/mybatis/mappers/UserMapper.xml"></mapper>
+    </mappers>
+
+
+</database>
